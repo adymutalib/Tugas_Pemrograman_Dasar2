@@ -26,4 +26,17 @@ mesin lain melakukan berbagai tugas yang jauh lebih sempit; mobil yang dikendara
 bersulang. Komputer dapat melakukan berbagai tugas karena mereka menjalankan tugas yang berbeda 
 program, yang masing-masing mengarahkan komputer untuk bekerja pada tugas tertentu</P>
 
+<p>&nbsp
+<p>&nbsp
+<i align="justify">The computer itself is a machine that stores data (numbers, words, pictures), inter acts with devices (the monitor, the sound system, the printer), and executes programs. 
+A computer program tells a computer, in minute detail, the sequence of steps that 
+are needed to fulfill a task. The physical computer and peripheral devices are collec tively called the hardware. The programs the computer executes are called the 
+soft ware. </i>
+
+<p>&nbsp
+<p align="justify">Komputer itu sendiri adalah mesin yang menyimpan data (angka, kata-kata, gambar), berinteraksi dengan perangkat (monitor, sistem suara, printer), dan menjalankan program. 
+Sebuah program komputer memberi tahu komputer, secara rinci, urutan langkah-langkah yang 
+diperlukan untuk memenuhi tugas. Komputer fisik dan perangkat periferal secara kolektif disebut perangkat keras. Program yang dijalankan komputer disebut 
+barang lunak. </P>
+
 
