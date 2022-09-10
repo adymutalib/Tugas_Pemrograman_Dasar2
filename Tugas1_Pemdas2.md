@@ -1573,6 +1573,7 @@ kebutuhan untuk proyek pemrograman Anda
 ### Become familiar with your Java programming environment
 
 ### Menjadi akrab dengan lingkungan pemrograman Java Anda
+---
 
 - Set aside time to become familiar with the programming - - environment that you 
 will use for your class work.
@@ -1597,6 +1598,7 @@ bekerja sebelum terjadi bencana.
 ### Describe the building blocks of a simple program.
 
 ### Jelaskan blok bangunan dari program sederhana.
+---
 
 <p>&nbsp
 
@@ -1619,6 +1621,7 @@ instruksi.
 ### Classify program errors as compile-time and run-time errors.
 
 ### Mengklasifikasikan kesalahan program sebagai waktu kompilasi dan runtime kesalahan.
+---
 
 <p>&nbsp
 
@@ -1634,3 +1637,812 @@ terdeteksi oleh compiler.
 tidak berniat
 
 
+### Write pseudocode for simple algorithms.
+
+### Tulis pseudocode untuk algoritma sederhana.
+---
+
+- An algorithm for solving a problem is a sequence of steps that 
+is unambiguous, executable, and terminating. 
+- Pseudocode is an informal description of a sequence of steps 
+for solving a problem.
+
+<p>&nbsp
+
+- Algoritma untuk memecahkan masalah adalah urutan langkah-langkah yang
+tidak ambigu, dapat dieksekusi, dan diakhiri.
+- Pseudocode adalah deskripsi informal dari urutan langkah
+untuk memecahkan masalah.
+
+### STANDARD LIBRARY ITEMS INTRODUCED IN THIS CHAPTER
+<p>&nbsp
+
+### ITEM PERPUSTAKAAN STANDAR YANG DIPERKENALKAN DALAM BAB INI
+<p>&nbsp
+
+### REVIEW E X ERCISES
+<p>&nbsp
+
+### REVIEW E X ERCISES
+
+<p>&nbsp
+<p>&nbsp
+<i align="justify">• R1.1 Explain the difference between using a computer program and programming a 
+computer.
+
+- R1.2 Which parts of a computer can store program code? Which can store user data?
+- R1.3 Which parts of a computer serve to give information to the user? Which parts take 
+user input?
+
+•• R1.4 A toaster is a single-function device, but a computer can be programmed to carry out 
+different tasks. Is your cell phone a single-function device, or is it a programmable 
+computer? (Your answer will depend on your cell phone model.)
+•• R1.5 Explain two benefits of using Java over machine code. 
+•• R1.6 On your own computer or on a lab computer, find the exact location (folder or 
+directory name) of
+a. The sample file HelloPrinter.java, which you wrote with the editor. 
+b. The Java program launcher java.exe or java.
+c. The library file rt.jar that contains the run-time library.
+•• R1.7 What does this program print?
+
+    public class Test
+    {
+    public static void main(String[] args)
+    {
+    System.out.println("39 + 3");
+    System.out.println(39 + 3);
+    }
+    }
+
+•• R1.8 What does this program print? Pay close attention to spaces.
+
+    public class Test
+    {
+    public static void main(String[] args)
+    {
+    System.out.print("Hello");
+    System.out.println("World");
+    }
+    }
+
+•• R1.9 What is the compile-time error in this program?
+
+    public class Test
+    {
+    public static void main(String[] args)
+    {
+    System.out.println("Hello", "World!");
+    }
+    }
+    java.io.PrintStream
+    print
+    println
+    java.lang.System
+    out
+ 
+STANDARD LIBRARY ITEMS INTRODUCED IN THIS CHAPTER
+REVIEW E X ERCISES
+
+Practice Exercises 25
+•• R1.10 Write three versions of the HelloPrinter.java program that have different compiletime errors. Write a version that has a run-time error.
+• R1.11 How do you discover syntax errors? How do you discover logic errors?
+••• R1.12 The cafeteria offers a discount card for sale that entitles you, during a certain period, 
+to a free meal whenever you have bought a given number of meals at the regular 
+price. The exact details of the offer change from time to time. Describe an algorithm 
+that lets you determine whether a particular offer is a good buy. What other inputs 
+do you need?
+•• R1.13 Write an algorithm to settle the following question: A bank account starts out with 
+$10,000. Interest is compounded monthly at 6 percent per year (0.5 percent per 
+month). Every month, $500 is withdrawn to meet college expenses. After how many 
+years is the account depleted?
+••• R1.14 Consider the question in Exercise R1.13. Suppose the numbers ($10,000, 6 percent, 
+$500) were user selectable. Are there values for which the algorithm you developed 
+would not terminate? If so, change the algorithm to make sure it always terminates.
+••• R1.15 In order to estimate the cost of painting a house, a painter needs to know the surface 
+area of the exterior. Develop an algorithm for computing that value. Your inputs are 
+the width, length, and height of the house, the number of windows and doors, and 
+their dimensions. (Assume the windows and doors have a uniform size.)
+•• R1.16 In How To 1.1, you made assumptions about the price of gas and annual usage to 
+compare cars. Ideally, you would like to know which car is the better deal without 
+making these assumptions. Why can’t a computer program solve that problem?
+•• R1.17 Suppose you put your younger brother in charge of backing up your work. Write a 
+set of detailed instructions for carrying out his task. Explain how often he should do 
+it, and what files he needs to copy from which folder to which location. Explain how 
+he should verify that the backup was carried out correctly.
+• R1.18 Write pseudocode for an algorithm that describes how to prepare Sunday breakfast 
+in your household.
+•• R1.19 The ancient Babylonians had an algorithm for determining the square root of a number a. Start with an initial guess of a / 2. Then find the average of your guess g and 
+a / g. That’s your next guess. Repeat until two consecutive guesses are close enough. 
+Write pseudocode for this algorithm.</i>
+
+<p>&nbsp
+<p align="justify"> R1. 1 Menjelaskan perbedaan antara menggunakan program komputer dan pemrograman a
+komputer.
+
+- R1. 2 bagian komputer mana yang dapat menyimpan kode program? Yang dapat menyimpan data pengguna?
+- R1. 3 bagian mana dari komputer yang berfungsi untuk memberikan informasi kepada pengguna? Bagian mana yang mengambil
+masukan pengguna?
+
+•R1. 4 pemanggang roti adalah perangkat fungsi tunggal, tetapi komputer dapat diprogram untuk melakukan
+tugas yang berbeda. Apakah ponsel Anda adalah perangkat fungsi tunggal, atau apakah itu dapat diprogram
+komputer? (Jawaban Anda akan tergantung pada model ponsel Anda.)
+• R1.5 menjelaskan dua manfaat menggunakan Java atas kode mesin.
+• R1. 6 di komputer Anda sendiri atau di komputer lab, temukan lokasi yang tepat (folder atau
+nama direktori) dari
+contoh berkas HelloPrinter.java, yang Anda tulis dengan editor.
+b. Peluncur Program Java java.exe atau java.
+C. berkas pustaka rt.jar yang berisi perpustakaan runtime.
+• R1. 7 apa program ini cetak?
+
+
+    public class Test
+    {
+    public static void main(String[] args)
+    {
+    System.out.println("39 + 3");
+    System.out.println(39 + 3);
+    }
+    }
+
+•R1. 8 Apa program ini cetak? Perhatikan baik-baik ruang.
+
+
+    public class Test
+    {
+    public static void main(String[] args)
+    {
+    System.out.print("Hello");
+    System.out.println("World");
+    }
+    }
+
+•R1. 9 Apa kesalahan waktu kompilasi dalam program ini?
+
+    public class Test
+    {
+    public static void main(String[] args)
+    {
+    System.out.println("Hello", "World!");
+    }
+    }
+    java.io.PrintStream
+    print
+    println
+    java.lang.System
+    out
+
+ITEM PERPUSTAKAAN STANDAR YANG DIPERKENALKAN DALAM BAB INI
+ULASAN E X ERCISES
+
+Latihan Latihan 25
+•R1. 10 tulis tiga versi HelloPrinter.program java yang memiliki kesalahan compiletime yang berbeda. Tulis versi yang memiliki kesalahan run-time.
+R1. 11 Bagaimana Anda menemukan kesalahan sintaks? Bagaimana Anda menemukan kesalahan logika?
+••R1. 12 kafetaria menawarkan kartu diskon untuk dijual yang memberi Anda hak, selama periode tertentu,
+untuk makan gratis setiap kali Anda telah membeli sejumlah tertentu makanan di reguler
+harga. Detail pasti dari penawaran berubah dari waktu ke waktu. Jelaskan algoritma
+itu memungkinkan Anda menentukan apakah penawaran tertentu adalah pembelian yang bagus. Apa masukan lainnya
+apakah Anda perlu?
+• R1. 13 tulis algoritma untuk menyelesaikan pertanyaan berikut: rekening bank dimulai dengan
+$10,000. Bunga diperparah bulanan sebesar 6 persen per tahun (0,5 persen per
+bulan). Setiap bulan, $ 500 ditarik untuk memenuhi biaya kuliah. Setelah berapa banyak
+tahun apakah akun habis?
+••R1.14 pertimbangkan pertanyaan dalam latihan R1.13. Misalkan angka (10.000, 6 persen,
+500) yang dipilih pengguna. Apakah ada nilai yang algoritma yang Anda kembangkan
+tidak akan berakhir? Jika demikian, Ubah algoritme untuk memastikannya selalu berakhir.
+••R1.15 untuk memperkirakan biaya mengecat rumah, seorang pelukis perlu mengetahui permukaannya
+area eksterior. Mengembangkan algoritma untuk menghitung nilai itu. Masukan Anda adalah
+lebar, panjang, dan tinggi rumah, jumlah jendela dan pintu, dan
+dimensi mereka. (Asumsikan jendela dan pintu memiliki ukuran yang seragam.)
+•R1.16 dalam cara 1.1, Anda membuat asumsi tentang harga gas dan penggunaan tahunan untuk
+bandingkan mobil. Idealnya, Anda ingin tahu mana mobil adalah kesepakatan yang lebih baik tanpa
+membuat asumsi tersebut. Mengapa program komputer tidak bisa memecahkan masalah itu?
+•R1. 17 Misalkan Anda menempatkan adik laki-laki Anda yang bertanggung jawab untuk mencadangkan pekerjaan Anda. Menulis
+set instruksi rinci untuk melaksanakan tugasnya. Jelaskan seberapa sering dia harus melakukannya
+itu, dan file apa yang dia butuhkan untuk menyalin dari folder mana ke lokasi mana. Jelaskan bagaimana
+dia harus memverifikasi bahwa pencadangan dilakukan dengan benar.
+R1. 18 tulis pseudocode untuk algoritme yang menjelaskan cara menyiapkan sarapan hari Minggu
+dalam rumah tangga Anda.
+•R1. 19 orang Babilonia kuno memiliki algoritma untuk menentukan akar kuadrat dari angka a. mulailah dengan tebakan awal a / 2. Kemudian temukan rata-rata tebakan anda g dan
+a / g. itu tebakan Anda berikutnya. Ulangi sampai dua tebakan berturut-turut cukup dekat.
+ulis pseudocode untuk algoritma ini.
+</p>
+
+### PRACTICE E X ERCISES
+
+### LATIHAN LATIHAN
+
+• E1.1 Write a program that prints a greeting of your choice, perhaps in a language other 
+than English.
+•• E1.2 Write a program that prints the sum of the first ten positive integers, 1 + 2 + … + 10.
+•• E1.3 Write a program that prints the product of the first ten positive integers, 1 × 2 × … ×
+10. (Use * to indicate multiplication in Java.)
+•• E1.4 Write a program that prints the balance of an account after the first, second, and third 
+year. The account has an initial balance of $1,000 and earns 5 percent interest per year.
+• E1.5 Write a program that displays your name inside a box on the screen, like this: Dave
+Do your best to approximate lines with characters such as | - +.
+
+<p>&nbsp
+
+-  E1. 1 menulis sebuah program yang mencetak ucapan pilihan Anda, mungkin dalam bahasa lain
+dari bahasa Inggris.
+•E1.2 Tulis program yang mencetak jumlah dari sepuluh bilangan bulat positif pertama, 1 + 2 + ... + 10.
+• E1. 3 menulis sebuah program yang mencetak produk dari sepuluh bilangan bulat positif pertama, 1 friedrichsheet 2 arthropoda ... arthropoda
+10. (Gunakan * untuk menunjukkan perkalian di Jawa.)
+• E1.4 Tulis program yang mencetak saldo akun setelah yang pertama, kedua, dan ketiga
+tahun. Akun tersebut memiliki saldo awal $ 1.000 dan menghasilkan bunga 5 persen per tahun.
+- E1. 5 tulis program yang menampilkan nama Anda di dalam kotak di layar, seperti ini: Dave
+Lakukan yang terbaik untuk mendekati garis dengan karakter seperti | - +.
+
+### E1.6 Write a program that prints your name in large letters, such as
+
+### E1. 6 tulis program yang mencetak nama Anda dalam huruf besar, seperti
+
+<p align="center" >
+<img src="img/img25.png" style="width:30%">
+</p>
+
+### Write a program that prints your name in Morse code, like this:
+
+### Tulis program yang mencetak nama Anda dalam Kode Morse, seperti ini:
+
+<p align="center" >
+<img src="img/img26.png" style="width:30%">
+</p>
+
+### Write a program that prints a face similar to (but different from) the following:
+<p>&nbsp
+
+### Tulis program yang mencetak nama Anda dalam Kode Morse, seperti ini:
+
+<p align="center" >
+<img src="img/img27.png" style="width:30%">
+</p>
+
+### Write a program that prints an imitation of a Piet Mondrian painting. (Search the  Internet if you are not familiar with his paintings.) Use character sequences such as @@@ or ::: to indicate different colors, and use - and | to form lines.
+<p>&nbsp
+
+### Tulis program yang mencetak tiruan lukisan Piet Mondrian. (Cari Internet jika Anda tidak akrab dengan lukisannya.) Gunakan urutan karakter seperti @@@ atau::: untuk menunjukkan warna yang berbeda, dan menggunakan - dan | untuk membentuk garis.
+<p>&nbsp
+
+### Write a program that prints a house that looks exactly like the following:
+<p>&nbsp
+
+### Tulis program yang mencetak rumah yang terlihat persis seperti berikut:
+
+<p align="center" >
+<img src="img/img28.png" style="width:30%">
+</p>
+
+### Write a program that prints an animal speaking a greeting, similar to (but different from) the following:
+<p>&nbsp
+
+### Tulis program yang mencetak hewan yang mengucapkan salam, mirip dengan (tetapi berbeda dari) berikut ini:
+
+<p align="center" >
+<img src="img/img29.png" style="width:30%">
+</p>
+
+### Write a program that prints three items, such as the names of your three best friends or favorite movies, on three separate lines.
+<p>&nbsp
+
+### Write a program that prints a poem of your choice. If you don’t have a favorite poem, search the Internet for “Emily Dickinson” or “e e cummings”.
+
+
+### Write a program that prints an animal speaking a greeting, similar to (but different from) the following:
+<p>&nbsp
+
+### Write a program that prints a poem of your choice. If you don’t have a favorite poem, search the Internet for “Emily Dickinson” or “e e cummings”.
+<p>&nbsp
+
+### Write a program that prints the United States flag, using * and = characters.
+<p>&nbsp
+
+###  Type in and run the following program. Then modify it to show the message “Hello, your name!”.
+<p>&nbsp
+
+    import javax.swing.JOptionPane;
+    public class DialogViewer
+        {
+    public static void main(String[] args)
+        {
+        JOptionPane.showMessageDialog(null, "Hello, World!");
+        }
+    }
+
+### Tulis program yang mencetak hewan yang mengucapkan salam, mirip dengan (tetapi berbeda dari) berikut ini:
+<p>&nbsp
+
+### Tulis program yang mencetak puisi pilihan Anda. Jika Anda tidak memiliki favorit puisi, cari di Internet untuk "Emily Dickinson"atau" e E cummings".
+<p>&nbsp
+
+###  Tulis program yang mencetak bendera Amerika Serikat, menggunakan dan = karakter.
+<p>&nbsp
+
+### Ketik dan jalankan program berikut. Kemudian modifikasi untuk menampilkan pesan " Halo, namamu!”.
+<p>&nbsp
+
+
+### Type in and run the following program. Then modify it to print “Hello, name!”,  displaying the name that the user typed in.
+<p>&nbsp
+
+### Ketik dan jalankan program berikut. Kemudian memodifikasi untuk mencetak " Halo, nama!”, menampilkan nama yang diketik pengguna.
+
+    import javax.swing.JOptionPane;
+    public class DialogViewer
+    {
+    public static void main(String[] args)
+    {
+    String name = JOptionPane.showInputDialog("What is your name?");
+    System.out.println(name);
+    }
+    }
+
+Modify the program from Exercise E1.16 so that the dialog continues with the message “My name is Hal! What would you like me to do?” Discard the user’s input and 
+display a message such as
+
+    I'm sorry, Dave. I'm afraid I can't do that.
+Replace Dave with the name that was provided by the user.
+
+Memodifikasi program dari latihan E1. 16 sehingga dialog berlanjut dengan MES sage "nama saya hal! Apa yang kau ingin aku lakukan?"Buang input pengguna dan 
+menampilkan pesan seperti
+
+    Maafkan Aku, Dave. Aku takut aku tidak bisa melakukan itu.
+Ganti Dave Dengan Nama yang diberikan oleh pengguna.
+
+Type in and run the following program. Then modify it to show a different greeting 
+and image.
+
+    import java.net.URL;
+    import javax.swing.ImageIcon;
+    import javax.swing.JOptionPane;
+    public class Test
+    {
+    public static void main(String[] args) throws Exception
+    {
+    URL imageLocation = new URL(
+    "http://horstmann.com/java4everyone/duke.gif");
+    JOptionPane.showMessageDialog(null, "Hello", "Title", 
+    JOptionPane.PLAIN_MESSAGE, new ImageIcon(imageLocation));
+    }
+    }
+
+Ketik dan jalankan program berikut. Kemudian memodifikasi untuk menunjukkan ucapan yang berbeda 
+dan gambar.
+
+    impor java. net. URL;
+    impor javax.ayunan.ImageIcon;
+    impor javax.ayunan.JOptionPane;
+    tes kelas publik
+    {
+    public static void main (String[] args) melempar pengecualian
+    {
+    Lokasi gambar URL = URL baru(
+    "http://horstmann.com/java4everyone/duke.gif");
+    JOptionPane.showMessageDialog (null, "Halo","judul", 
+    JOptionPane.PLAIN_MESSAGE, ImageIcon baru(lokasi gambar));
+    }
+    }
+
+Write a program that prints a two-column list of your friends’ birthdays. In the first 
+column, print the names of your best friends; in the second, print their birthdays.
+
+Tulis program yang mencetak daftar dua kolom ulang tahun teman Anda. Dalam pertama
+kolom, cetak nama teman terbaik Anda; yang kedua, cetak ulang tahun mereka.
+
+In the United States there is no federal sales tax, so every state 
+may impose its own sales taxes. Look on the Internet for the 
+sales tax charged in five U.S. states, then write a program that 
+prints the tax rate for five states of your choice.
+
+Di Amerika Serikat tidak ada pajak penjualan federal, sehingga setiap negara 
+dapat mengenakan pajak penjualan sendiri. Lihat di Internet untuk 
+pajak penjualan dibebankan di lima negara bagian AS, kemudian menulis program yang 
+mencetak tarif pajak untuk lima negara bagian pilihan Anda.
+
+To speak more than one language is a valuable 
+skill in the labor market today. One of the basic 
+skills is learning to greet people. Write a program 
+that prints a two-column list with the greeting 
+phrases shown in the table. In the first column, 
+print the phrase in English, in the second column, print the phrase in a language of your 
+choice. If you don’t speak a language other than 
+English, use an online translator or ask a friend.
+
+Untuk berbicara lebih dari satu bahasa adalah berharga 
+keterampilan di pasar tenaga kerja saat ini. Salah satu dasar 
+keterampilan adalah belajar menyapa orang. Menulis program 
+yang mencetak daftar dua kolom dengan salam 
+frase ditampilkan dalam tabel. Di kolom pertama, 
+cetak frasa dalam bahasa Inggris, di kol umn kedua, cetak frasa dalam bahasa Anda 
+pilihan. Jika Anda tidak berbicara bahasa lain selain 
+Inggris, menggunakan penerjemah online atau meminta teman.
+
+### PROGRAMMING PROJECTS
+
+### PROYEK PEMROGRAMAN
+
+You want to decide whether you should drive your car to work or take the train. 
+You know the one-way distance from your home to your place of work, and the 
+fuel efficiency of your car (in miles per gallon). You also know the one-way price 
+of a train ticket. You assume the cost of gas at $4 per gallon, and car maintenance at 
+5 cents per mile. Write an algorithm to decide which commute is cheaper. 
+
+Anda ingin memutuskan apakah Anda harus mengendarai mobil Anda untuk bekerja atau naik kereta api. 
+Anda tahu jarak satu arah dari rumah Anda ke tempat kerja Anda, dan 
+efisiensi bahan bakar mobil Anda (dalam mil per galon). Anda juga tahu harga satu arah 
+dari tiket kereta api. Anda menganggap biaya gas di $ 4 per galon, dan Perawatan Mobil di 
+5 sen per mil. Tulis algoritme untuk memutuskan Perjalanan mana yang lebih murah.
+
+You want to find out which fraction of your car’s use is for commuting to work, 
+and which is for personal use. You know the one-way distance from your home to 
+work. For a particular period, you recorded the beginning and ending mileage on the 
+odometer and the number of work days. Write an algorithm to settle this question.
+
+Anda ingin memutuskan apakah Anda harus mengendarai mobil Anda untuk bekerja atau naik kereta api.
+Anda tahu jarak satu arah dari rumah Anda ke tempat kerja Anda, dan
+efisiensi bahan bakar mobil Anda (dalam mil per galon). Anda juga tahu harga satu arah
+dari tiket kereta api. Anda menganggap biaya gas di $ 4 per galon, dan Perawatan Mobil di
+5 sen per mil. Tulis algoritme untuk memutuskan Perjalanan mana yang lebih murah.
+
+The value of π can be computed according to the following formula:
+
+Nilai dari multinot dapat dihitung sesuai dengan rumus berikut:
+
+<p align="center" >
+<img src="img/img30.png" style="width:30%">
+</p>
+
+Write an algorithm to compute π. Because the formula is an infinite series and an 
+algorithm must stop after a finite number of steps, you should stop when you have 
+the result determined to six significant digits.
+
+Menulis sebuah algoritma untuk menghitung sponges. Karena rumusnya adalah deret tak hingga dan
+algoritma harus berhenti setelah sejumlah terbatas langkah, Anda harus berhenti ketika Anda memiliki 
+hasilnya ditentukan untuk enam digit signifikan.
+
+4 Imagine that you and a number of friends go to a luxury restaurant, and when you 
+ask for the bill you want to split the amount and the tip (15 percent) between all. 
+Write pseudocode for calculating the amount of money that everyone has to pay. 
+Your program should print the amount of the bill, the tip, the total cost, and the 
+amount each person has to pay. It should also print how much of what each person 
+pays is for the bill and for the tip.
+
+4 bayangkan bahwa Anda dan sejumlah teman pergi ke sebuah restoran mewah, dan ketika Anda
+meminta tagihan Anda ingin membagi jumlah dan ujung (15 persen) antara semua.
+Tulis pseudocode untuk menghitung jumlah uang yang harus dibayar setiap orang.
+Program Anda harus mencetak jumlah tagihan, ujung, total biaya, dan
+jumlah yang harus dibayar setiap orang. Hal ini juga harus mencetak berapa banyak dari apa yang setiap orang
+pays adalah untuk tagihan dan untuk tip.
+
+Write an algorithm to create a tile pattern composed of black 
+and white tiles, with a fringe of black tiles all around and 
+two or three black tiles in the center, equally spaced from the 
+boundary. The inputs to your algorithm are the total number 
+of rows and columns in the pattern.
+
+Tulis algoritma untuk membuat pola ubin yang terdiri dari hitam
+dan ubin putih, dengan pinggiran ubin hitam di sekitar dan
+dua atau tiga ubin hitam di tengah, sama-sama berjarak dari
+batas. Input ke algoritma Anda adalah jumlah total
+baris dan kolom dalam pola.
+
+<p align="center" >
+<img src="img/img31.png" style="width:30%">
+</p>
+
+Write an algorithm that allows a robot to mow a rectangular lawn, provided it has been placed in a corner, like this:
+The robot can:
+- Move forward by one unit.
+- Turn left or right.
+- Sense the color of the ground one unit in front of it
+
+
+Tulis algoritme yang memungkinkan robot memotong rumput rectangu lar, asalkan ditempatkan di sudut, seperti ini:
+Robot bisa:
+- Bergerak maju dengan satu unit.
+- Belok kiri atau kanan.
+- Merasakan warna tanah satu unit di depannya.
+
+<p align="center" >
+<img src="img/img32.png" style="width:30%">
+</p>
+
+Consider a robot that is placed in a room. The robot can:
+- Move forward by one unit.
+- Turn left or right.
+- Sense what is in front of it: a wall, a window, or 
+neither.
+Write an algorithm that enables the robot, placed any where in the room, to count the number of windows. For 
+example, in the room at right, the robot (marked as R) 
+should find that it has two windows.
+
+Pertimbangkan robot yang ditempatkan di sebuah ruangan. Robot bisa:
+- Bergerak maju dengan satu unit.
+- Belok kiri atau kanan.
+- Merasakan apa yang ada di depannya: dinding, jendela, atau
+tidak juga.
+Menulis sebuah algoritma yang memungkinkan robot, ditempatkan setiap tempat di dalam ruangan, untuk menghitung jumlah jendela. Untuk
+contoh, di ruang di sebelah kanan, robot (ditandai sebagai R)
+harus menemukan bahwa ia memiliki dua jendela.
+
+<p align="center" >
+<img src="img/img33.png" style="width:30%">
+</p>
+
+Consider a robot that has been placed in a maze. The right-hand rule tells you how 
+to escape from a maze: Always have the right hand next to a wall, and eventually you 
+will find an exit. The robot can:
+- Move forward by one unit.
+- Turn left or right.
+- Sense what is in front of it: a wall, an exit, or neither.
+Write an algorithm that lets the robot escape the maze. You may assume that there is 
+an exit that is reachable by the right-hand rule. Your challenge is to deal with situa tions in which the path turns. The robot can’t see turns. It can only see what is 
+directly in front of it.
+
+Pertimbangkan robot yang telah ditempatkan di labirin. Aturan tangan kanan memberi tahu Anda caranya
+untuk melarikan diri dari labirin: selalu memiliki tangan kanan di samping dinding, dan akhirnya Anda
+akan menemukan jalan keluar. Robot bisa:
+- Bergerak maju dengan satu unit.
+- Belok kiri atau kanan.
+- Merasakan apa yang ada di depannya: dinding, jalan keluar, atau tidak keduanya.
+Menulis sebuah algoritma yang memungkinkan robot melarikan diri labirin. Anda dapat berasumsi bahwa ada
+jalan keluar yang dapat dicapai oleh aturan tangan kanan. Tantangan Anda adalah untuk berurusan dengan situa tions di mana jalan berubah. Robot tidak bisa melihat belokan. Ia hanya bisa melihat apa yang
+tepat di depannya.
+
+<p align="center" >
+<img src="img/img34.png" style="width:30%">
+</p>
+
+Suppose you received a loyalty promotion that lets you purchase one item, valued 
+up to $100, from an online catalog. You want to make the best of the offer. You have 
+a list of all items for sale, some of which are less than $100, some more. Write an 
+algorithm to produce the item that is closest to $100. If there is more than one such 
+item, list them all. Remember that a computer will inspect one item at a time––it 
+can’t just glance at a list and find the best one.
+
+Misalkan Anda menerima promosi loyalitas yang memungkinkan Anda membeli satu item, dihargai 
+hingga $100, dari katalog online. Anda ingin membuat yang terbaik dari penawaran. Anda memiliki 
+daftar semua barang untuk dijual, beberapa di antaranya kurang dari $100, beberapa lagi. Menulis sebuah 
+algoritma untuk menghasilkan item yang paling dekat dengan $100. Jika ada lebih dari satu seperti 
+item, daftar mereka semua. Ingat bahwa komputer akan memeriksa satu item pada suatu waktu-itu 
+tidak bisa hanya melirik daftar dan menemukan yang terbaik.
+
+A television manufacturer advertises that a television set has a certain size, measured diagonally. 
+You wonder how the set will fit into your living 
+room. Write an algorithm that yields the horizontal 
+and vertical size of the television. Your inputs are 
+the diagonal size and the aspect ratio (the ratio of 
+width to height, usually 16 : 9 for television sets).
+
+Produsen televisi mengiklankan bahwa satu set televisi memiliki ukuran tertentu, diukur secara diagonal. 
+Anda bertanya-tanya bagaimana set akan cocok dengan hidup Anda 
+kamar. Menulis algoritma yang menghasilkan horisontal 
+dan ukuran vertikal televisi. Masukan Anda adalah 
+ukuran diagonal dan rasio aspek (rasio 
+lebar ke Tinggi, biasanya 16: 9 untuk pesawat televisi).
+
+<p align="center" >
+<img src="img/img35.png" style="width:30%">
+</p>
+
+Cameras today can correct “red eye” problems caused 
+when the photo flash makes eyes look red. Write pseudo code for an algorithm that can detect red eyes. Your input is 
+a pattern of colors, such as that at right.
+You are given the number of rows and columns. For any 
+row or column number, you can query the color, which will 
+be red, black, or something else. If you find that the center 
+of the black pixels coincides with the center of the red 
+pixels, you have found a red eye, and your output should 
+be “yes”. Otherwise, your output is “no”.
+
+Kamera saat ini dapat memperbaiki masalah "mata merah" yang disebabkan 
+ketika flash foto membuat mata terlihat merah. Tulis kode semu untuk algoritme yang dapat mendeteksi mata merah. Masukan Anda adalah 
+pola warna, seperti yang di sebelah kanan.
+Anda diberi jumlah baris dan kolom. Untuk setiap 
+nomor baris atau kolom, Anda dapat menanyakan warna, yang akan 
+menjadi merah, hitam, atau sesuatu yang lain. Jika Anda menemukan bahwa pusat 
+dari piksel hitam bertepatan dengan pusat merah 
+piksel, Anda telah menemukan mata merah, dan output Anda harus 
+jadilah "ya". Jika tidak, output Anda adalah"tidak".
+
+<p align="center" >
+<img src="img/img36.png" style="width:30%">
+</p>
+
+### ANSWERS TO SELF-CHECK QUESTIONS
+
+### JAWABAN UNTUK PERTANYAAN PEMERIKSAAN DIRI
+<p>&nbsp
+
+1. A program that reads the data on the CD and 
+sends output to the speakers and the screen.
+2. A CD player can do one thing—play music 
+CDs. It cannot execute programs.
+3. Nothing.
+4. In secondary storage, typically a hard disk.
+5. The central processing unit.
+6. A smartphone has a CPU and memory, like 
+any computer. A few smartphones have keyboards. Generally, the touchpad is used instead 
+of a mouse. Secondary storage is in the form 
+of a solid state drive. Of course, smartphones 
+have a display, speaker, and microphone. The 
+network connection uses the wireless radio to 
+connect to a cell tower.
+<p>&nbsp
+
+1. Sebuah program yang membaca data pada CD dan
+mengirim output ke speaker dan layar.
+2. Pemutar CD dapat melakukan satu hal-memutar musik
+Cd. Itu tidak dapat menjalankan program.
+3. Tidak ada.
+4. Dalam penyimpanan sekunder, biasanya hard disk.
+5. Unit pemrosesan Pusat.
+6. Sebuah smartphone memiliki CPU dan memori, seperti
+komputer manapun. Beberapa smartphone memiliki papan kunci. Umumnya, touchpad digunakan sebagai gantinya
+dari tikus. Penyimpanan sekunder adalah dalam bentuk
+dengan solid state drive. Tentu saja, smartphone
+memiliki layar, speaker, dan mikrofon. The
+koneksi jaringan menggunakan radio nirkabel untuk
+terhubung ke menara seluler.
+<p>&nbsp
+<p>&nbsp
+
+7. Safety and portability.
+8. No one person can learn the entire library—it 
+is too large.
+9. The answer varies among systems. A typical 
+answer might be /home/dave/cs1/hello/HelloPrinter.java or c:\Users\Dave\Workspace\hello\
+HelloPrinter.java
+10. You back up your files and folders.
+11. Change World to your name (here, Dave):
+System.out.println("Hello, Dave!");
+12. System.out.println("H");
+System.out.println("e");
+System.out.println("l"); 
+System.out.println("l"); 
+System.out.println("o"); 
+13. No. The compiler would look for an 
+item whose name is Hello. You need to 
+enclose Hello in quotation marks: 
+System.out.println("Hello");
+14. The printout is My lucky number is12. It would 
+be a good idea to add a space after the is.
+15. Hello 
+a blank line
+World
+16. This is a compile-time error. The compiler 
+will complain that it does not know the meanings of the words Hello and World.
+17. This is a compile-time error. The compiler 
+will complain that System.out does not have a 
+method called printline.
+18. This is a run-time error. It is perfectly legal to 
+give the name hello to a method, so the compiler won’t complain. But when the program 
+is run, the virtual machine will look for a main
+method and won’t find one.
+19. It is a run-time error. After all, the program 
+had been compiled in order for you to run it.
+20. When a program has compiler errors, no class 
+file is produced, and there is nothing to run.
+21. 4 years:
+0 10,000
+1 12,000
+2 14,400
+3 17,280
+4 20,736
+22. Is the number of minutes at most 300?
+a. If so, the answer is $29.95 × 1.125 = $33.70.
+b. If not,
+1. Compute the difference: (number of 
+minutes) – 300.
+2. Multiply that difference by 0.45.
+3. Add $29.95.
+4. Multiply the total by 1.125. That is the 
+answer.
+23. No. The step If it is more attractive than the "best 
+so far" is not executable because there is no 
+objective way of deciding which of two photos is more attractive.
+24. Pick the first photo and call it "the most expensive so far". 
+For each photo in the sequence
+If it is more expensive than "the most expensive so far"
+ Discard "the most expensive so far".
+ Call this photo "the most expensive so far".
+The photo called "the most expensive so far" is the most 
+expensive photo in the sequence.
+25. The first black marble that is preceded by a 
+white one is marked in blue:
+❍●❍❍●●
+Switching the two yields
+●❍❍●●
+The next black marble to be switched is
+●❍❍●●
+yielding 
+●❍●❍●
+The next steps are
+●●❍❍●
+●●❍●❍
+●●●❍❍
+Now the sequence is sorted.
+26. The sequence doesn’t terminate. Consider the 
+input ❍●❍●❍. The first two marbles keep 
+getting switched.
+<p>&nbsp
+<p>&nbsp
+
+7. Keamanan dan portabilitas.
+8. Tidak ada satu orang dapat mempelajari seluruh perpustakaan—itu
+terlalu besar.
+9. Jawabannya bervariasi antar sistem. Sebuah khas
+jawaban mungkin/rumah/dave/cs1/Halo / Halo Printer.java atau c:\Users\Dave\Workspace\hello\
+HelloPrinter.java
+10. Anda membuat cadangan file dan folder.
+11. Mengubah dunia untuk nama Anda (di sini, Dave):
+Sistem.keluar.println ("Halo, Dave!");
+12. Sistem.keluar.println ("H");
+Sistem.keluar.println ("e");
+Sistem.keluar.println ("l");
+Sistem.keluar.println ("l");
+Sistem.keluar.println ("o");
+13. Tidak. Compiler akan mencari
+barang yang namanya Hello. Anda perlu
+lampirkan Halo dalam tanda kutip:
+Sistem.keluar.println ("Halo");
+14. Hasil cetaknya adalah angka keberuntungan saya is12. Ini akan
+jadilah ide yang baik untuk menambahkan spasi setelah is.
+15. Halo
+baris kosong
+Dunia
+16. Ini adalah kesalahan waktu kompilasi. Kompiler
+akan mengeluh bahwa ia tidak tahu arti kata-kata halo dan dunia.
+17. Ini adalah kesalahan waktu kompilasi. Kompiler
+akan mengeluh sistem itu.keluar tidak memiliki
+metode yang disebut printline.
+18. Ini adalah kesalahan run-time. Sangat legal untuk
+beri nama hello ke metode, sehingga com piler tidak akan mengeluh. Tapi ketika program
+dijalankan, mesin virtual akan mencari utama
+metode dan tidak akan menemukan satu.
+19. Ini adalah kesalahan run-time. Setelah semua, program
+telah disusun dalam rangka bagi anda untuk menjalankannya.
+20. Ketika sebuah program memiliki kesalahan kompiler, tidak ada kelas
+file diproduksi, dan tidak ada untuk menjalankan.
+21. 4 tahun:
+0 10,000
+1 12,000
+2 14,400
+3 17,280
+4 20,736
+22. Apakah jumlah menit paling banyak 300?
+a. Jika demikian, jawabannya adalah $ 29,95 trojans 1,125 = $33,70.
+b. jika tidak,
+1. Hitung perbedaannya: (jumlah
+menit) - 300.
+2. Kalikan perbedaan itu dengan 0,45.
+3. Tambahkan ke $29.95.
+4. Kalikan total dengan 1,125. Itu adalah
+jawab.
+23. Tidak. Langkah jika lebih menarik daripada "terbaik
+sejauh ini" tidak dapat dieksekusi karena tidak ada
+cara obyektif untuk memutuskan mana dari dua pho tos yang lebih menarik.
+24. Pilih foto pertama dan menyebutnya"yang paling mahal sejauh ini".
+Untuk setiap foto dalam urutan
+Jika lebih mahal dari "yang paling mahal sejauh ini"
+Buang "yang paling mahal sejauh ini".
+Sebut foto ini "yang paling mahal sejauh ini".
+Foto yang disebut "yang paling mahal sejauh ini" adalah yang paling
+foto mahal dalam urutan.
+25. Marmer hitam pertama yang didahului oleh
+yang putih ditandai dengan warna Biru:
+❍●❍❍●●
+Beralih dua hasil
+●❍❍●●
+Marmer hitam berikutnya yang akan diganti adalah
+●❍❍●●
+menghasilkan
+●❍●❍●
+Langkah selanjutnya adalah
+●●❍❍●
+●●❍●❍
+●●●❍❍
+Sekarang urutannya diurutkan.
+26. Urutan tidak berakhir. Pertimbangkan
+masukan. Dua kelereng pertama tetap
+beralih.
