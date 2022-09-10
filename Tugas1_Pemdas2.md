@@ -1383,3 +1383,254 @@ kode yang terkait dengan Contoh Kerja yang disertakan dengan kode pendamping buk
 bab ini. Saat Anda melihat deskripsi contoh yang berfungsi, unduh contoh
 dan kode untuk mempelajari bagaimana masalah itu dipecahkan
 </p>
+
+### WORKED EXAMPLE 1.1
+### Writing an Algorithm for Tiling a Floor
+
+### CONTOH KERJA 1.1
+### Menulis algoritma untuk Ubin Lantai
+
+<p>&nbsp
+<p>&nbsp
+<i align="justify">Problem Statement Write an algorithm for tiling a rectangular bathroom floor with 
+alternating black and white tiles measuring 4 × 4 inches. The floor dimensions, measured in 
+inches, are multiples of 4.</i>
+
+<p>&nbsp
+<p align="justify">Pernyataan masalah Tulis algoritma untuk ubin lantai kamar mandi persegi panjang dengan
+bergantian ubin hitam dan putih berukuran 4 multinotes 4 inci. Dimensi lantai, diukur dalam
+inci, adalah kelipatan dari 4.</p>
+
+
+<p>&nbsp
+<p>&nbsp
+<i align="justify">Step 1 Determine the inputs and outputs.
+The inputs are the floor dimensions (length × width), 
+measured in inches. The output is a tiled floor. 
+Step 2 Break down the problem into smaller tasks.
+A natural subtask is to lay one row of tiles. If you can 
+solve that task, then you can solve the problem by laying one row next to the other, starting from a wall, until 
+you reach the opposite wall. 
+How do you lay a row? Start with a tile at one wall. 
+If it is white, put a black one next to it. If it is black, put 
+a white one next to it. Keep going until you reach the 
+opposite wall. The row will contain width / 4 tiles. 
+Step 3 Describe each subtask in pseudocode.
+In the pseudocode, you want to be more precise about exactly where the tiles are placed. 
+Place a black tile in the northwest corner.
+While the floor is not yet filled, repeat the following steps:
+Repeat this step width / 4 – 1 times: 
+ Place a tile east of the previously placed tile. If the previously placed tile was white, pick a black one;
+ otherwise, a white one.
+Locate the tile at the beginning of the row that you just placed. If there is space to the south, place a tile of 
+the opposite color below it.
+Step 4 Test your pseudocode by working a problem.
+Suppose you want to tile an area measuring 20 × 12 inches. The first step is to place a black tile 
+in the northwest corner</i>
+
+<p align="center" >
+<img src="img/img18.png" style="width:30%">
+</p>
+
+<p align="justify">Langkah 1 Tentukan input dan output.
+Inputnya adalah dimensi lantai (panjang lebar multinotes),
+diukur dalam inci. Outputnya adalah lantai keramik.
+Langkah 2 memecah masalah menjadi tugas-tugas yang lebih kecil.
+Subtugas alami adalah meletakkan satu baris ubin. Jika Anda bisa
+selesaikan tugas itu, lalu Anda dapat menyelesaikan masalah dengan meletakkan satu baris di sebelah yang lain, mulai dari dinding, hingga
+Anda mencapai dinding seberang.
+Bagaimana Anda berbaring berturut-turut? Mulailah dengan ubin di salah satu dinding.
+Jika putih, letakkan yang hitam di sebelahnya. Jika Hitam, menempatkan
+yang putih di sebelahnya. Terus sampai Anda mencapai
+dinding seberang. Baris akan berisi lebar / 4 ubin.
+Langkah 3 jelaskan setiap subtugas dalam pseudocode.
+Dalam pseudocode, Anda ingin lebih tepat tentang di mana tepatnya ubin ditempatkan.
+Tempatkan ubin hitam di sudut barat laut.
+Saat Lantai belum terisi, ulangi langkah-langkah berikut:
+Ulangi langkah ini lebar / 4 - 1 kali:
+Tempatkan ubin di sebelah timur ubin yang ditempatkan sebelumnya. Jika ubin yang ditempatkan sebelumnya berwarna putih, pilih yang hitam;
+kalau tidak, yang putih.
+Temukan ubin di awal baris yang baru saja Anda tempatkan. Jika ada ruang ke selatan, menempatkan ubin
+warna yang berlawanan di bawahnya.
+Langkah 4 Uji pseudocode Anda dengan mengerjakan masalah.
+Misalkan anda ingin memasang ubin di area berukuran 20 multinotes 12 inci. Langkah pertama adalah menempatkan ubin hitam
+di sudut barat laut</p>
+
+
+<p align="center" >
+<img src="img/img19.png" style="width:30%">
+</p>
+
+### Next, alternate four tiles until reaching the east wall. (width / 4 – 1 = 20 / 4 – 1 = 4)
+
+### Selanjutnya, ganti empat ubin hingga mencapai dinding timur. (lebar / 4 – 1 = 20 / 4 – 1 = 4)
+
+<p align="center" >
+<img src="img/img19.png" style="width:30%">
+</p>
+
+### There is room to the south. Locate the tile at the beginning of the completed row. It is black. Place a white tile south of it.
+
+### Ada ruang di selatan. Temukan ubin di awal baris yang sudah selesai. Ini hitam. Tempatkan ubin putih di selatannya.
+
+<p align="center" >
+<img src="img/img20.png" style="width:30%">
+</p>
+
+### Complete the row.
+
+### Lengkapi baris.
+
+<p align="center" >
+<img src="img/img21.png" style="width:30%">
+</p>
+
+### There is still room to the south. Locate the tile at the beginning of the completed row. It is white. Place a black tile south of it.
+
+### Masih ada ruang di selatan. Temukan ubin di awal baris yang sudah selesai. Ini adalah putih. Tempatkan ubin hitam di selatannya.
+
+<p align="center" >
+<img src="img/img22.png" style="width:30%">
+</p>
+
+### Complete the row.
+
+### Lengkapi baris.
+
+<p align="center" >
+<img src="img/img23.png" style="width:30%">
+</p>
+
+### Now the entire floor is filled, and you are done.
+
+### Sekarang seluruh lantai terisi, dan Anda selesai.
+
+<p align="center" >
+<img src="img/img24.png" style="width:30%">
+</p>
+
+## CHAPTER SUMMARY
+
+## RINGKASAN BAB
+
+### Define “computer program” and programming.
+
+### Tentukan "program komputer" dan pemrograman.
+
+---
+
+- Computers execute very basic instructions in rapid succession.
+- A computer program is a sequence of instructions and decisions.
+- Programming is the act of designing and implementing computer programs
+
+<p>&nbsp
+
+- Komputer mengeksekusi instruksi yang sangat dasar dalam suksesi cepat.
+- Program komputer adalah urutan instruksi dan keputusan.
+- Pemrograman adalah tindakan merancang dan mengimplementasikan program komputer
+
+
+### Describe the components of a computer.
+
+### Jelaskan komponen-komponen komputer.
+---
+
+- The central processing unit (CPU) performs program control and data 
+processing.
+- Storage devices include memory and secondary storage
+
+<p>&nbsp
+
+- Central processing unit (CPU) melakukan kontrol program dan data
+pengolahan.
+- Perangkat penyimpanan termasuk memori dan penyimpanan sekunder
+
+### Describe the process of translating high-level languages to machine code.
+
+### Jelaskan proses menerjemahkan bahasa Tingkat Tinggi ke kode mesin.
+---
+
+- Java was originally designed for programming consumer devices, but it was first 
+successfully used to write Internet applets.
+- Java was designed to be safe and portable, benefiting both Internet users and 
+students.
+- Java programs are distributed as instructions for a virtual machine, making them 
+platform-independent.
+- Java has a very large library. Focus on learning those parts of the library that you 
+need for your programming projects
+
+<p>&nbsp
+
+- Java pada awalnya dirancang untuk pemrograman perangkat konsumen, tapi itu pertama
+berhasil digunakan untuk menulis applet Internet.
+- Java dirancang agar aman dan portabel, menguntungkan pengguna Internet dan
+siswa.
+- Program Java didistribusikan sebagai instruksi untuk mesin virtual, membuatnya
+platform-independen.
+- Java memiliki perpustakaan yang sangat besar. Fokus pada belajar bagian-bagian dari perpustakaan yang Anda
+kebutuhan untuk proyek pemrograman Anda
+
+### Become familiar with your Java programming environment
+
+### Menjadi akrab dengan lingkungan pemrograman Java Anda
+
+- Set aside time to become familiar with the programming - - environment that you 
+will use for your class work.
+- An editor is a program for entering and modifying text, such as a Java program.
+- Java is case sensitive. You must be careful about distinguishing between upperand lowercase letters.
+- The Java compiler translates source code into class files that contain instructions 
+for the Java virtual machine.
+- Develop a strategy for keeping backup copies of your 
+work before disaster strikes.
+
+<p>&nbsp
+
+- Sisihkan waktu untuk menjadi akrab dengan pemrograman - - lingkungan yang Anda
+akan digunakan untuk pekerjaan kelas Anda.
+- Editor adalah program untuk memasukkan dan memodifikasi teks, seperti Program Java.
+Java adalah case sensitive. Anda harus berhati-hati dalam membedakan antara huruf besar dan huruf kecil.
+- Compiler Java menerjemahkan kode sumber ke dalam file kelas yang berisi instruksi
+untuk mesin virtual Java.
+- Mengembangkan strategi untuk menjaga salinan cadangan dari Anda
+bekerja sebelum terjadi bencana.
+
+### Describe the building blocks of a simple program.
+
+### Jelaskan blok bangunan dari program sederhana.
+
+<p>&nbsp
+
+- Classes are the fundamental building blocks of Java programs.
+- Every Java application contains a class with a main method. When the application 
+starts, the instructions in the main method are executed.
+- Each class contains declarations of methods. Each method contains a sequence of 
+instructions.
+- A method is called by specifying the method and its arguments.
+- A string is a sequence of characters enclosed in quotation marks.
+
+- Kelas adalah blok bangunan dasar dari Program Java.
+- Setiap aplikasi Java berisi kelas dengan metode utama. Ketika aplikasi
+dimulai, instruksi dalam metode utama dijalankan.
+- Setiap kelas berisi deklarasi metode. Setiap metode berisi urutan
+instruksi.
+- Sebuah metode dipanggil dengan menentukan metode dan argumennya.
+- String adalah urutan karakter yang diapit tanda kutip.
+
+### Classify program errors as compile-time and run-time errors.
+
+### Mengklasifikasikan kesalahan program sebagai waktu kompilasi dan runtime kesalahan.
+
+<p>&nbsp
+
+ A compile-time error is a violation of the programming language rules that is 
+detected by the compiler.
+-  A runtime error causes a program to take an action that the programmer did 
+not intend
+
+
+Kesalahan waktu kompilasi adalah pelanggaran terhadap aturan bahasa pemrograman yang 
+terdeteksi oleh compiler.
+- Kesalahan runtime menyebabkan program mengambil tindakan yang dilakukan programmer 
+tidak berniat
+
+
